@@ -1,3 +1,5 @@
+/* @author <Yuri Kirkitadze> */
+
 package homework4;
 
 public class PatternPrinter {
