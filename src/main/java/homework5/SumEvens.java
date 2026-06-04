@@ -10,11 +10,9 @@ public class SumEvens {
     }
 
 
-    public static int sumEvens(int from, int to)
-    {
+    public static int sumEvens(int from, int to) {
         int sum = 0;
-        for (int i = from; i <= to; i++)
-        {
+        for (int i = from; i <= to; i++) {
             if (i % 2 == 0) {
                 sum += i;
             }
