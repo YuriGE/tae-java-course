@@ -9,7 +9,7 @@ public class MultiplicationTable {
     }
 
     static public void printableTable(int n) {
-        for (int i = 1; i < 10; i++) {
+        for (int i = 1; i <= 10; i++) {
             System.out.println(n + " * " + i + " = " + (n * i));
         }
     }
