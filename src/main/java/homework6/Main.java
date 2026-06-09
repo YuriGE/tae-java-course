@@ -21,9 +21,14 @@ public class Main {
         //მეშვიდე თასქის გაშვება
         System.out.println("Task 7");
         Calculator calc = new Calculator();
-        System.out.println(calc.calculator(10,3,'+'));
-        System.out.println(calc.calculator(10,0,'/'));//0 ზე გაყოფა
-        System.out.println(calc.calculator(7,3,'['));//არასწორი სიმბოლო
+        System.out.println(calc.calculator(10, 3, '+'));
+        System.out.println(calc.calculator(10, 0, '/'));//0 ზე გაყოფა
+        System.out.println(calc.calculator(7, 3, '['));//არასწორი სიმბოლო
+        System.out.println(" ");
 
+        //მერვე თასქის გაშვება
+        System.out.println("Task 8");
+        Student s = new Student("იური", new int[]{85, 92, 78});
+        System.out.println(s.getStatus());
     }
 }
