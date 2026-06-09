@@ -3,7 +3,7 @@
 package homework6;
 
 public class Shape {
-    double area (){
+    double area() {
         return 0.0;
     }
 }
