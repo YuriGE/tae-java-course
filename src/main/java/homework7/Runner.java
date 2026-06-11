@@ -48,6 +48,23 @@ public class Runner {
 
         System.out.println("-----------------------------------------------------------------------------------------");
 
+        //Task 4
+        System.out.println(" ");
+        System.out.println("-----------------------------------------------------------------------------------------");
+        System.out.println("Task 5");
+        System.out.println(" ");
+
+        Drawable[] shapes = {
+                new Square(),
+                new Triangle(),
+                new Star()
+        };
+        for (Drawable sh : shapes) {
+            sh.draw();
+        }
+
+        System.out.println("-----------------------------------------------------------------------------------------");
+
     }
 
 }
