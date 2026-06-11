@@ -20,6 +20,22 @@ public class Runner {
 
         System.out.println("-----------------------------------------------------------------------------------------");
 
+        //Task 2
+        System.out.println(" ");
+        System.out.println("-----------------------------------------------------------------------------------------");
+        System.out.println("Task 2");
+        System.out.println(" ");
+
+        Dog d = new Dog("Rex");
+        d.makeSound();
+        d.sleep();
+
+        Cat c = new Cat("Murka");
+        c.makeSound();
+        c.sleep();
+
+        System.out.println("-----------------------------------------------------------------------------------------");
+
     }
 
 }
