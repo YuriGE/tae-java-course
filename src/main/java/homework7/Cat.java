@@ -1,13 +1,13 @@
 package homework7;
 
-public class Cat extends Animal{
+public class Cat extends Animal {
 
-    public Cat(String name){
+    public Cat(String name) {
         super(name);
     }
 
     @Override
-    public void makeSound(){
-        System.out.println("Meow!");
+    public void makeSound() {
+        System.out.print("Meow! ");
     }
 }

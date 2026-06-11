@@ -1,15 +1,15 @@
 package homework7;
 
-public class Dog extends Animal{
+public class Dog extends Animal {
 
-    public Dog(String name){
+    public Dog(String name) {
         super(name);
     }
 
 
     @Override
-    public void makeSound(){
-        System.out.println("Bark!");
+    public void makeSound() {
+        System.out.print("Bark! ");
     }
 
 }
