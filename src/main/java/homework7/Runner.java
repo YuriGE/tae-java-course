@@ -102,7 +102,7 @@ public class Runner {
         System.out.println("Task 7");
         System.out.println(" ");
 
-        Person [] people = {
+        Person[] people = {
                 new Person("Anna", 25),
                 new Person("Beka", 30),
                 new Person("Cita", 23),
@@ -111,10 +111,28 @@ public class Runner {
 
         Arrays.sort(people);
 
-        for (Person p : people){
+        for (Person p : people) {
             System.out.println(p);
         }
 
+
+        System.out.println("-----------------------------------------------------------------------------------------");
+
+        //Task 8
+        System.out.println(" ");
+        System.out.println("-----------------------------------------------------------------------------------------");
+        System.out.println("Task 8");
+        System.out.println(" ");
+
+        Employee[] team = {
+                new FullTime("Anna", 5000),
+                new PartTime("Beka", 25, 80)
+        };
+
+        for (Employee e : team) {
+            e.printInfo();
+            System.out.println(e.calculateSalary());
+        }
 
         System.out.println("-----------------------------------------------------------------------------------------");
 
