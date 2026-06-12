@@ -2,6 +2,9 @@
 
 package homework7;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Runner {
 
     public static void main(String[] args) {
@@ -89,6 +92,28 @@ public class Runner {
 
         new Car("Toyota").start();
         new Bike("Trek").stop();
+
+
+        System.out.println("-----------------------------------------------------------------------------------------");
+
+        //Task 7
+        System.out.println(" ");
+        System.out.println("-----------------------------------------------------------------------------------------");
+        System.out.println("Task 7");
+        System.out.println(" ");
+
+        Person [] people = {
+                new Person("Anna", 25),
+                new Person("Beka", 30),
+                new Person("Cita", 23),
+                new Person("Yuri", 31)
+        };
+
+        Arrays.sort(people);
+
+        for (Person p : people){
+            System.out.println(p);
+        }
 
 
         System.out.println("-----------------------------------------------------------------------------------------");
