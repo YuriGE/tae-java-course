@@ -1,3 +1,5 @@
+/* @author <Yuri Kirkitadze> */
+
 package homework7;
 
 public class Dog extends Animal {
@@ -5,7 +7,6 @@ public class Dog extends Animal {
     public Dog(String name) {
         super(name);
     }
-
 
     @Override
     public void makeSound() {

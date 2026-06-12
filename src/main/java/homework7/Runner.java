@@ -51,7 +51,7 @@ public class Runner {
         //Task 4
         System.out.println(" ");
         System.out.println("-----------------------------------------------------------------------------------------");
-        System.out.println("Task 5");
+        System.out.println("Task 4");
         System.out.println(" ");
 
         Drawable[] shapes = {
@@ -62,6 +62,22 @@ public class Runner {
         for (Drawable sh : shapes) {
             sh.draw();
         }
+
+        System.out.println("-----------------------------------------------------------------------------------------");
+
+        //Task 5
+        System.out.println(" ");
+        System.out.println("-----------------------------------------------------------------------------------------");
+        System.out.println("Task 5");
+        System.out.println(" ");
+
+        Book b1 = new Book("Martin Eden");
+        Book b2 = new Book("Martin_Eden", "Jack London");
+        Book b3 = new Book("Martin_Eden", "Jack London", 1995);
+
+        System.out.println(b1);
+        System.out.println(b2);
+        System.out.println(b3);
 
         System.out.println("-----------------------------------------------------------------------------------------");
 
